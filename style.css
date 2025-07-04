@@ -1,0 +1,96 @@
+
+*{
+ font-family: sans-serif;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+    background: url(WORLD.jpg);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    
+    color: white;
+    background: rgba(105, 69, 69, 0.354);
+    width: 470px;
+    height: 600px;
+    padding: 90px;
+    margin: 20px;
+    margin-left: 40px;
+    border-radius: 35px;
+    border: solid 4px rgba(92, 90, 90, 0.715);
+    backdrop-filter: blur(2px);
+    box-shadow: 0px, 0px, 30px, rgb(0, 0, 0, 0.1);
+    /* text-align: center; */
+    align-items: center;
+}
+.title{
+    text-align: center;
+    margin: 40px;
+    color: #f36c65;
+    font-weight : bold;
+}
+
+.input-box {
+    margin-bottom: 40px;
+    display: flex;
+    background-color: burlywood;
+    height: 30px;
+}
+.input-box i{
+    font-size: 30px;
+    margin-right: 15px;
+}
+.input-box input {
+    width: 90%;
+    margin-left: ;
+    border-radius: 10px;
+}
+.remember-me {
+    margin: 30px;
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.remember-me input {
+    margin-right:20px;
+   
+
+}
+
+.remember-me h3 {
+     font-size: 22px;
+     margin-bottom: 10px;
+}
+
+.login-btn {
+    width: 300px;
+    display: flex;
+    /* margin: 10px, 10px, 170px, 0; */
+    margin-top: 10px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    justify-content: center;    
+    font-size: large;
+    /* color: #eaeaac; */
+    /* background-color: #c43c35; */
+}
+.login-btn:hover{
+    background-color: rgb(174, 134, 104);
+
+}
+
+.register a{
+
+   color: rgb(38, 241, 153);
+}
